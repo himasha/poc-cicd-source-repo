@@ -69,7 +69,7 @@ data:
   endpointConfig:
     endpoint_type: http
     sandbox_endpoints:
-      url: http://dev.sandbox.com:9091/booking
+      url: http://dev.sandbox.com:9092/booking
     production_endpoints:
       url: http://localhost:9091/booking
   endpointImplementationType: ENDPOINT
