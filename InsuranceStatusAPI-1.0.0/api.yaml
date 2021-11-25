@@ -1,0 +1,93 @@
+type: api
+version: v4.0.0
+data:
+  id: 45ebfd4c-f654-4065-8da1-6f56d1e1e543
+  name: InsuranceStatusAPI
+  context: /t/group.ext.com/insurance
+  version: 1.0.0
+  provider: emma@group.ext.com
+  lifeCycleStatus: PUBLISHED
+  responseCachingEnabled: false
+  cacheTimeout: 300
+  hasThumbnail: false
+  isDefaultVersion: false
+  isRevision: true
+  revisionedApiId: b3069635-c0c1-4ac1-bbdc-5ed4a29eb2cc
+  revisionId: 3
+  enableSchemaValidation: false
+  type: HTTP
+  transport:
+   - http
+   - https
+  tags: []
+  policies:
+   - Bronze
+   - Unlimited
+   - CustomRentalPolicy
+  authorizationHeader: Authorization
+  securityScheme:
+   - oauth2
+   - oauth_basic_auth_api_key_mandatory
+  visibility: PUBLIC
+  visibleRoles: []
+  visibleTenants: []
+  mediationPolicies: []
+  subscriptionAvailability: CURRENT_TENANT
+  subscriptionAvailableTenants: []
+  additionalProperties: []
+  accessControl: NONE
+  accessControlRoles: []
+  businessInformation:
+    businessOwner: Emma Peters
+    businessOwnerEmail: emma@group.ext.com
+  corsConfiguration:
+    corsConfigurationEnabled: false
+    accessControlAllowOrigins:
+     - '*'
+    accessControlAllowCredentials: false
+    accessControlAllowHeaders:
+     - authorization
+     - Access-Control-Allow-Origin
+     - Content-Type
+     - SOAPAction
+     - apikey
+     - Internal-Key
+    accessControlAllowMethods:
+     - GET
+     - PUT
+     - POST
+     - DELETE
+     - PATCH
+     - OPTIONS
+  websubSubscriptionConfiguration:
+    enable: false
+    secret: ""
+    signingAlgorithm: SHA1
+    signatureHeader: x-hub-signature
+  createdTime: 2021-11-25 11:00:44.92
+  lastUpdatedTime: 2021-11-25 11:00:44.92
+  endpointConfig:
+    endpoint_type: http
+    sandbox_endpoints:
+      url: http://dev.sandbox.com:9091/booking
+    production_endpoints:
+      url: http://localhost:9091/booking
+  endpointImplementationType: ENDPOINT
+  scopes: []
+  operations:
+   -
+    id: ""
+    target: /status/{refID}
+    verb: GET
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+  categories:
+   - RentalCarInsurance
+  keyManagers:
+   - all
+  advertiseInfo:
+    advertised: false
+    apiOwner: emma@group.ext.com
+    vendor: WSO2

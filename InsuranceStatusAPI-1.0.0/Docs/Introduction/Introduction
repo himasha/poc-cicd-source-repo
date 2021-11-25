@@ -1,0 +1,12 @@
+
+# INTRODUCTION
+
+This document describes the resources available to promote our insurance products on a partner’s website or build your own application. The endpoint documentation is supplemented with information regarding the API functions, which outline customisations required for implementation, particularly on the front end.
+The Car Rental Insurance Status API adheres to the principles of REST. It has predictable, resource-oriented URLs, and uses HTTP response codes to indicate errors.
+
+### INSURANCE STATUS RESOURCE
+
+The Status endpoint enables provides with the booking details (including status) of the specified booking reference.
+Endpoint: /insurance/status
+
+Authenticate your account when using the API by including your secret API key in the request. Your API Key is sent in the X_API_KEY header of your request. Your API keys carry many privileges, so be sure to keep them secret! Do not share your secret API keys in publicly accessible areas such as public source control repositories or client-side code

@@ -1,0 +1,9 @@
+type: document
+version: v4.0.0
+data:
+  documentId: 6bd89ae1-2b8c-48ba-91ea-c45a936dc1ce
+  name: Introduction
+  type: HOWTO
+  summary: Intro Guide
+  sourceType: MARKDOWN
+  visibility: API_LEVEL
