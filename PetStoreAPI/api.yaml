@@ -20,6 +20,6 @@ data:
     production_endpoints:
       url: http://localhost:8080
     sandbox_endpoints:
-      url: http://localhost:8088
+      url: http://localhost:8084
   endpointImplementationType: ENDPOINT
   websubSubscriptionConfiguration: null
