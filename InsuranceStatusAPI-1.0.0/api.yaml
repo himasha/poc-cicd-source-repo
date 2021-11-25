@@ -1,7 +1,7 @@
 type: api
 version: v4.0.0
 data:
-  id: 45ebfd4c-f654-4065-8da1-6f56d1e1e543
+  id: d92bfcc7-f00e-47c5-a82e-f075749261ca
   name: InsuranceStatusAPI
   context: /t/group.ext.com/insurance
   version: 1.0.0
@@ -13,7 +13,7 @@ data:
   isDefaultVersion: false
   isRevision: true
   revisionedApiId: b3069635-c0c1-4ac1-bbdc-5ed4a29eb2cc
-  revisionId: 3
+  revisionId: 5
   enableSchemaValidation: false
   type: HTTP
   transport:
@@ -64,12 +64,12 @@ data:
     secret: ""
     signingAlgorithm: SHA1
     signatureHeader: x-hub-signature
-  createdTime: 2021-11-25 11:00:44.92
-  lastUpdatedTime: 2021-11-25 11:00:44.92
+  createdTime: 2021-11-25 12:05:21.111
+  lastUpdatedTime: 2021-11-25 12:05:21.111
   endpointConfig:
     endpoint_type: http
     sandbox_endpoints:
-      url: http://dev.sandbox.com:9092/booking
+      url: http://dev.sandbox.com:9091/booking
     production_endpoints:
       url: http://localhost:9091/booking
   endpointImplementationType: ENDPOINT
