@@ -11,7 +11,7 @@ security:
 paths:
   /status/{refID}:
     get:
-      summary: The Status endpoint provides with the  rental car booking details (including status) of the specified booking reference.
+      summary: The Status Ins endpoint provides with the  rental car booking details (including status) of the specified booking reference.
       parameters:
        -
         name: refID
