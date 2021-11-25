@@ -1,9 +1,0 @@
-type: document
-version: v4.0.0
-data:
-  documentId: 94335472-6df1-4171-b358-14cd7d0362c6
-  name: HowtoGuide
-  type: HOWTO
-  summary: Sample doc
-  sourceType: MARKDOWN
-  visibility: API_LEVEL

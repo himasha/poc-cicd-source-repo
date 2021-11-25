@@ -1,7 +1,7 @@
 type: api
 version: v4.0.0
 data:
-  id: d92bfcc7-f00e-47c5-a82e-f075749261ca
+  id: 37d1042b-2b7c-434e-abe9-f1c119446bc0
   name: InsuranceStatusAPI
   context: /t/group.ext.com/insurance
   version: 1.0.0
@@ -12,8 +12,8 @@ data:
   hasThumbnail: false
   isDefaultVersion: false
   isRevision: true
-  revisionedApiId: b3069635-c0c1-4ac1-bbdc-5ed4a29eb2cc
-  revisionId: 5
+  revisionedApiId: aa5f9d7a-a9e4-4b5e-bdd9-181e3829f32c
+  revisionId: 1
   enableSchemaValidation: false
   type: HTTP
   transport:
@@ -22,13 +22,13 @@ data:
   tags: []
   policies:
    - Bronze
-   - Unlimited
+   - Gold
    - CustomRentalPolicy
   authorizationHeader: Authorization
   securityScheme:
    - oauth2
    - oauth_basic_auth_api_key_mandatory
-  visibility: PUBLIC
+  visibility: PRIVATE
   visibleRoles: []
   visibleTenants: []
   mediationPolicies: []
@@ -39,7 +39,6 @@ data:
   accessControlRoles: []
   businessInformation:
     businessOwner: Emma Peters
-    businessOwnerEmail: emma@group.ext.com
   corsConfiguration:
     corsConfigurationEnabled: false
     accessControlAllowOrigins:
@@ -64,12 +63,12 @@ data:
     secret: ""
     signingAlgorithm: SHA1
     signatureHeader: x-hub-signature
-  createdTime: 2021-11-25 12:05:21.111
-  lastUpdatedTime: 2021-11-25 12:05:21.111
+  createdTime: 2021-11-25 12:21:33.58
+  lastUpdatedTime: 2021-11-25 12:21:33.58
   endpointConfig:
     endpoint_type: http
     sandbox_endpoints:
-      url: http://dev.sandbox.com:9091/booking
+      url: http://localhost:9092/booking
     production_endpoints:
       url: http://localhost:9091/booking
   endpointImplementationType: ENDPOINT

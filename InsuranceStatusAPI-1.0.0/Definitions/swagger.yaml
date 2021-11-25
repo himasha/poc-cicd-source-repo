@@ -68,7 +68,7 @@ x-wso2-production-endpoints:
   type: http
 x-wso2-sandbox-endpoints:
   urls:
-   - http://dev.sandbox.com:9091/booking
+   - http://localhost:9091/booking
   type: http
 x-wso2-basePath: /t/group.ext.com/insurance/1.0.0
 x-wso2-transports:
