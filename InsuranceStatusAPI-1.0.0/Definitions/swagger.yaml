@@ -12,7 +12,7 @@ paths:
   /status/{refID}:
     get:
       summary: |-
-        The Status reference endpoint provides with the  rental car booking details
+        The Status reference exp endpoint provides with the  rental car booking details
          of the specified booking reference.
       parameters:
        -
