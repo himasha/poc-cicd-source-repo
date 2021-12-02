@@ -1,0 +1,91 @@
+type: api
+version: v4.0.0
+data:
+  id: 2528cf47-c2e5-4eaf-b850-0f1d7859bbcf
+  name: InsuranceStatusAPI
+  context: /t/group.ext.com/insurance
+  version: 1.0.0
+  provider: emma@group.ext.com
+  lifeCycleStatus: PUBLISHED
+  responseCachingEnabled: false
+  cacheTimeout: 300
+  hasThumbnail: false
+  isDefaultVersion: false
+  isRevision: true
+  revisionedApiId: 118bc0e2-dad2-44fe-ad92-075075e204cf
+  revisionId: 1
+  enableSchemaValidation: false
+  type: HTTP
+  transport:
+   - http
+   - https
+  tags: []
+  policies:
+   - Bronze
+   - Gold
+   - CustomRentalPolicy
+  authorizationHeader: Authorization
+  securityScheme:
+   - oauth2
+   - oauth_basic_auth_api_key_mandatory
+  visibility: PRIVATE
+  visibleRoles: []
+  visibleTenants: []
+  mediationPolicies: []
+  subscriptionAvailability: CURRENT_TENANT
+  subscriptionAvailableTenants: []
+  additionalProperties: []
+  accessControl: NONE
+  accessControlRoles: []
+  businessInformation: {}
+  corsConfiguration:
+    corsConfigurationEnabled: false
+    accessControlAllowOrigins:
+     - '*'
+    accessControlAllowCredentials: false
+    accessControlAllowHeaders:
+     - authorization
+     - Access-Control-Allow-Origin
+     - Content-Type
+     - SOAPAction
+     - apikey
+     - Internal-Key
+    accessControlAllowMethods:
+     - GET
+     - PUT
+     - POST
+     - DELETE
+     - PATCH
+     - OPTIONS
+  websubSubscriptionConfiguration:
+    enable: false
+    secret: ""
+    signingAlgorithm: SHA1
+    signatureHeader: x-hub-signature
+  createdTime: 2021-12-02 14:17:35.391
+  lastUpdatedTime: 2021-12-02 14:17:35.391
+  endpointConfig:
+    endpoint_type: http
+    sandbox_endpoints:
+      url: http://localhost:9091/booking
+    production_endpoints:
+      url: http://localhost:9091/booking
+  endpointImplementationType: ENDPOINT
+  scopes: []
+  operations:
+   -
+    id: ""
+    target: /status/{refID}
+    verb: GET
+    authType: Application & Application User
+    throttlingPolicy: Unlimited
+    scopes: []
+    usedProductIds: []
+  categories:
+   - RentalCarInsurance
+  keyManagers:
+   - all
+  advertiseInfo:
+    advertised: false
+    apiOwner: emma@group.ext.com
+    vendor: WSO2
